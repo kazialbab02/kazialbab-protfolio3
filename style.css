@@ -1,0 +1,522 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: #fff;
+    
+}
+header div{
+    float: left;
+    justify-content: space-between;
+
+}
+.logo{
+margin-left: 200px;
+padding-top: 10px;
+
+}
+.nav {
+top: 0px;
+right: 0px;
+position: absolute;
+}
+.nav ul{
+    list-style: none;
+    margin-right: 200px;
+}
+.nav ul li{
+    float: left;
+    padding-left: 50px;
+    
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(47, 43, 43);
+
+}
+.nav ul li a:hover{
+    color: rgb(69, 117, 196);
+}
+.nav ul li a{
+    font-size: 12px;
+    text-transform: uppercase;
+    
+}
+.checkbtn{
+    display: none;
+    color: rgb(13, 13, 13);
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+
+}
+#check{
+    display: none;
+}
+.sec1{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.text,.img{
+    width: 50%;
+    margin-top: 200px;
+}
+.text{
+    margin-left: 200px;
+}
+.img{
+    padding-right: 100px;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+}
+.text h4{
+    font-weight: normal;
+}
+.text h1{
+    font-size: 50px;
+}
+.text p{
+    color: rgba(31, 29, 29,0.7);
+}
+.text button{
+    border: none;
+    padding: 12px;
+    background-color: rgb(26, 93, 200);
+}
+.text button:hover{
+    box-shadow: 2px 3px 30px rgba(11, 89, 148,0.7);
+    transition: all 0.5s ease-in ;
+    outline: 1px solid white;
+}
+.sec2{
+    width: 100%;
+    height: 300px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    
+}
+.text2,.img2{
+    width: 50%;
+}
+.text2{
+    margin-right: 100px;
+}
+.img2{
+    padding-right: 100px;
+    margin-left: 100px;
+}
+.img2{
+    max-width: 100%;
+    height: auto;
+}
+.text2 h4{
+    font-weight: normal;
+}
+.text2 h1{
+    font-size: 50px;
+}
+.text2 p{
+    color: rgba(31, 29, 29,0.7);
+}
+.text2 button{
+    border: none;
+    padding: 12px;
+    background-color: rgb(26, 93, 200);
+}
+.text2 button:hover{
+    box-shadow: 2px 3px 30px rgba(11, 89, 148,0.7);
+    transition: all 0.5s ease-in ;
+    outline: 1px solid white;
+}
+.sec3{
+    width: 100%;
+    height: 650px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 200px;
+}
+.headtext h3{
+font-size: 30px;
+text-transform: capitalize;
+}
+.ptag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin: -10px auto;
+    margin-top: -30px;
+    color: rgba(31, 29, 29,0.7);
+   
+}
+.servicebox{
+    width: 100%;
+    margin-top: 100px;
+    
+
+}
+
+
+.servicebox .opt{
+    width: 32%;
+    float: left;
+    height: 200px;
+    padding: 5px;
+    margin: 0px auto;
+}
+.servicebox .opt i{
+    font-size: 40px;
+    color: rgba(31, 29, 29,0.7);
+}
+.servicebox .opt p{
+    color:rgb(47, 43, 43)
+}
+.servicebox .opt :hover{
+    color: #fff
+
+}
+.servicebox div:hover{
+    background-color: rgb(69, 117, 196);
+    transition: all 0.5s ease-in;
+}
+.sec4{
+    width: 100%;
+    margin: 0px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8293ff;
+    margin-top: 100px;
+    
+}
+.sec4 div{
+    padding: 70px;
+    text-align: center;
+    color: #fff;
+
+    
+}
+.sec4 .let h2{
+    font-size: 35px;
+}
+
+.sec4 .let p{
+    margin-top: -20px;
+}
+
+.sec5{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.sec5 .sec5head {
+    margin-top: 150px;
+    text-transform: capitalize;
+    
+}
+.sec5 .sec5head h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sec5 .sec5head p{
+    margin-top: -20px;
+    color: rgba(31, 29, 29,0.7);
+}
+.imgbox{
+    box-sizing: border-box;
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px auto;
+
+}
+.imgbox .imgg{
+  text-align: center;
+  overflow: hidden;
+ 
+  padding:  5px;
+}
+.imgbox .imgg p{
+    margin-top: -12px;
+    color: rgba(31, 29, 29,0.7);
+}
+.imgbox .imgg:hover img{
+    background-color: #8490ff;
+    opacity: 0.3;
+}
+.imgbox .imgg:hover h2 {
+    opacity: 0.3;
+    background-color: #8490ff;
+}
+.sec6{
+    width: 100%;
+    height: 700px;
+    margin: 0px;
+    background-color: #fff;
+    margin-top: 200px;
+}
+.s6head{
+    text-align: center;
+}
+.s6head h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.s6head p{
+    color: rgba(31, 29, 29,0.7);
+    margin-top: -15px;
+}
+.prlist{
+    width: 75%;
+    height: 700px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    
+}
+.prlist .pr{
+    border: 1px solid rgba(11, 89, 148,0.1);
+    text-align: center;
+    width: 240px;
+    height: 450px;
+}
+.pr h1{
+    font-size: 30px;
+}
+.pr h3{
+    margin-top: -20px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+.pr button{
+    border: none;
+    outline: none;
+    padding: 20px 60px;
+    background-color: #8293ff;
+    font-size: 25px;
+}
+.pr p{
+    opacity: 0.7;
+
+}
+.prlist .pr hr{
+    opacity: 0.2;
+    ;
+}
+.prlist .pr hr:hover {
+    opacity: 0.9;
+}
+.pr:hover{
+    background-color: rgba(123, 123, 243, 0.993);
+    color: white;
+    transition: all 0.30s ease-in;
+    transform: scale(1.06);
+}
+.prlist .pr .brd{
+    border: 1px solid #8293ff;
+    border-radius: 50%;
+    background-color: #828bdb;
+}
+footer{
+    background-color: rgb(13, 13, 13);
+    width: 100%;
+   bottom: 0px;
+}
+footer .crtdiv{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .abo{
+    width: 40%;
+    height: auto;
+    margin-top: 60px;
+    color: #fff;
+    opacity: 0.5;
+}
+footer .news{
+    width: 40%;
+    color: #fff;
+    opacity: ;
+}
+footer .news p,h2{
+    opacity: 0.5;
+}
+footer .folow{
+    color: #fff;
+    opacity: 0.5;
+}
+footer .folow i{
+padding: px;
+font-size: 20px;
+left: 0px;
+color: white;
+}
+footer .news .txt{
+    width: 88%;
+    padding: 16px 0px;
+    color: #fff;
+}
+footer .sub{
+    padding: 16px 0px;
+    width: 10%;
+    background-color: #8293ff;
+}
+footer .folow a :hover{
+    color: rgb(94, 94, 200);
+}
+@media (max-width: 768px){
+    header{
+        width: 100%;
+        height: auto;
+        margin-top: -200px;
+    }
+    header .logo{
+        margin-left: 30px;
+        padding: 20px;
+    }
+    header .checkbtn{
+        display: block;
+    }
+    header .nav ul{
+        width: 100%;
+        height: 100vh;
+        background-color: #f9f9ff;
+        position: fixed;
+        top: 54px;
+        left: -200%;
+        transition: all 0.5s;
+    }
+header .nav ul li{
+    line-height: 30px;
+    clear: both;
+    margin-top: 15px;
+    
+}
+#check:checked ~ ul{
+    left: 0px;
+}
+header .nav ul li a {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+}
+@media (max-width:768px){
+    .sec1{
+        width: 100%;
+        height: auto;
+        display: block
+    }
+    .text{
+        margin: ;
+        padding: 0;
+        display: block;
+    }
+    .sec1 .img{
+        max-width: 100%;
+        margin-left: 150px;
+        height: auto;
+        margin-top: 200px;
+    }
+    .sec1 .img img{
+        max-width: 100%;
+    }
+    .sec2{
+        width: 100%;
+        height: auto;
+        display: block;
+        position: relative;
+    }
+    .sec2 .img2 img{
+        max-width: 100%;
+    }
+    .sec2 .text2{
+        margin: auto;
+    }
+    .sec3{
+        margin-top: 600px;
+        display: block;
+    }
+    .sec3 .headtext{
+        max-width: 100%;
+
+    }
+.sec3 .headtext .ptag{
+    max-width: 100%;
+}
+.halarput .opt{
+    clear: left;
+    position: relative;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    
+    
+}
+.sec4{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.sec4{
+    max-width: 100%;
+    clear: left;
+    display: block;
+    top: 100px;
+}
+.sec5{
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+
+}
+.sec5 .imgbox img{
+   
+}
+.sec6 .prlist{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    position: relative;
+    left: 30%
+
+}
+footer{
+top: 1200px;
+position: relative;
+height: auto;
+width: 100%;
+}
+
+
+
